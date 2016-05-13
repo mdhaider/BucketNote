@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/material_grey_300"
+            android:fillViewport="true"
+            android:padding="@dimen/dlg_add_padding"
+            android:scrollbarStyle="outsideOverlay">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/tv_title_vertical_margin"
+            android:layout_marginTop="@dimen/tv_title_vertical_margin"
+            android:layout_weight="1"
+            android:fontFamily="@string/sans_serif_light"
+            android:text="@string/str_add_drop"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_title_font_size"/>
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/btn_close_size"
+            android:layout_height="@dimen/btn_close_size"
+            android:layout_alignBottom="@+id/tv_title"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_title"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_close"/>
+
+
+        <EditText
+            android:id="@+id/et_drop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginBottom="@dimen/et_drop_vertical_margin"
+            android:layout_marginTop="@dimen/et_drop_vertical_margin"
+           android:background="@color/white"
+
+            android:hint="@string/hint_et_drop"
+            android:imeOptions="actionDone"
+            android:padding="@dimen/et_drop_padding"
+            android:lines="3"
+            android:maxLines="5"
+            android:textColor="@color/bg_row_drop_light"
+            android:textColorHint="@color/bg_row_drop_light" />
+
+        <Button
+            android:id="@+id/btn_add_it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_drop"
+            android:layout_marginBottom="@dimen/btn_add_it_vertical_margin"
+            android:layout_marginTop="@dimen/btn_add_it_vertical_margin"
+            android:background="@drawable/bg_btn_add_it"
+
+            android:padding="@dimen/btn_add_it_padding"
+            android:text="@string/str_add_it"
+            android:textAllCaps="false"
+            android:textColor="@color/bg_row_drop_light"
+            android:textSize="@dimen/btn_add_it_font_size"/>
+    </RelativeLayout>
+</ScrollView>
+
+

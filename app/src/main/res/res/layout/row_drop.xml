@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="@color/purple"
+    card_view:cardCornerRadius="2dp"
+    android:layout_margin="3dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="22dp"
+              android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+    <ImageView
+        android:layout_width="@dimen/iv_drop_size"
+        android:layout_height="@dimen/iv_drop_size"
+        android:background="@null"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_drop" />
+
+    <TextView
+        android:id="@+id/tv_what"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:fontFamily="@string/sans_serif_light"
+        android:text="what"
+        android:textColor="@android:color/white" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+<TextView
+    android:id="@+id/tv_added"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp"
+    android:fontFamily="@string/sans_serif_light"
+    android:text="Added on:"
+    android:textColor="@android:color/white" />
+
+<TextView
+    android:id="@+id/text_when"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="when"
+    android:fontFamily="@string/sans_serif_light"
+    android:textColor="@android:color/white" />
+
+
+</LinearLayout>
+
+ </LinearLayout>
+</android.support.v7.widget.CardView>

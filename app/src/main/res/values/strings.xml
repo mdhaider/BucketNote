@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BucketNote</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_bucket">Bucket Note</string>
+    <string name="action_bucket">Show Note</string>
+    <string name="action_add">Add</string>
+    <string name="action_sort_ascending_date">Ascending date</string>
+    <string name="action_sort_descending_date">Descending date</string>
+    <string name="action_show_completed">Show completed</string>
+    <string name="action_show_uncompleted">Show uncompleted</string>
+    <string name="message_today">Right Today? Are You Serious!</string>
+    <string name="notification_added">"You added this item on "</string>
+    <string name="sans_serif_light">sans-serif-light</string>
+    <string name="str_add_drop">Add a note</string>
+    <string name="str_ok_drop">Read your note</string>
+    <string name="hint_et_drop">What is it?</string>
+    <string name="str_add_it">Add It</string>
+    <string name="str_mark_completed">OK</string>
+    <string name="str_no_items">No items to display</string>
+
+    <string name="title_activity_settings_example">SettingsExampleActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_title_application_version">Application Version</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BucketDrops</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bucket">Bucket Drops</string>
+    <string name="action_bucket">Show Note</string>
+    <string name="action_add">Add</string>
+    <string name="action_sort_ascending_date">Sort by date- Ascending</string>
+    <string name="action_sort_descending_date">Sort by date- Descending</string>
+    <string name="action_show_completed">Show completed</string>
+    <string name="action_show_uncompleted">Show uncompleted</string>
+    <string name="message_today">Right Today? Are You Serious!</string>
+    <string name="notification_added">"You added this item on "</string>
+    <string name="sans_serif_light">sans-serif-light</string>
+    <string name="str_add_drop">Add a note</string>
+    <string name="str_ok_drop">Read your note</string>
+    <string name="hint_et_drop">What is it?</string>
+    <string name="str_add_it">Add It</string>
+    <string name="str_mark_completed">OK</string>
+    <string name="str_no_items">No items to display</string>
+</resources>

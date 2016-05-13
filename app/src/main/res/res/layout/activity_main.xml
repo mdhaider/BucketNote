@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.enjappsslidenerd.vivz.bucketdrops.home.ActivityMain"
+                android:background="@color/material_deep_teal_500">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+
+    <com.ennjapps.com.bucketnote.BucketRecyclerview
+        android:id="@+id/rv_drops"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
+
+    <include
+        android:id="@+id/empty_drops"
+        layout="@layout/empty_drops"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

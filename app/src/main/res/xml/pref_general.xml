@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Application">
+        <EditTextPreference android:title="Your Name"
+            android:key="username"
+            android:summary="Please provide your username">
+        </EditTextPreference>
+    <ListPreference
+        android:defaultValue="180"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:key="sync_frequency"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="Select the theme you like"
+        android:title="Select theme" />
+
+   </PreferenceCategory>
+
+    <PreferenceCategory android:title="Other">
+            <Preference
+                android:key="application_version"
+                android:title="@string/pref_title_application_version" />
+    </PreferenceCategory>
+</PreferenceScreen>
